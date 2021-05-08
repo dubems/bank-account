@@ -1,4 +1,4 @@
-###Project
+### Project
 A RESTful API for Bank Account creation and performing different actions of the different types of BankAccount.
 
 CHECKING_ACCOUNT, SAVINGS_ACCOUNT and PRIVATE_LOAN_ACCOUNT
@@ -18,7 +18,7 @@ This project is created with:
 * Docker for containerization
 * Swagger for API documentation
 
-###Installation and Running
+### Installation and Running
 The project can be run in two ways:
 * Gradle
 * Docker
@@ -50,19 +50,19 @@ docker run -p 8080:8080 sample-tag
 
 App should be available at **localhost:8080**
   
-###Documentation
+### Documentation
  The API documentation can be viewed in this path
  **/swagger-ui.html**
 
-###Testing
+### Testing
 To run the tests that were created along with the submission, Kindly run the command below:
 
 ```
 ./gradlew clean test
 ```
 
-###Production ready considerations(out of scope)
+### Production ready considerations(out of scope)
 * Metrics and Alerts
 
-###Side Note :)
+### Side Note :)
 * Since application is supposed to be stateless, we cannot get the ACID properties of a relational database to gaurantee `TRANSACTIONS`
